@@ -1,0 +1,12 @@
+<h1 class="text-center">
+  Les plus beaux produits de la plateforme
+</h1>
+
+<ul>
+  <%= @products.each do |product| %>
+  <li>
+  <%= product.name %> (<%= product.url %>)
+  </li>
+  <%end%>
+
+</ul>

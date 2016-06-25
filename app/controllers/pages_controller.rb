@@ -1,13 +1,13 @@
 class PagesController < ApplicationController
   def home
-    render plain: "Welcome !!"
+    @today = Date.today
+
   end
 
   def team
-    render plain: "Meet the Constellation team"
+    @members = ["Arthur", "Antoine", "Emeric"]
   end
 
   def join_us
-    render plain: "Join the adventure and contact us !"
   end
 end
