@@ -9,3 +9,5 @@
 Product.destroy_all
 
 Product.create!(name: "Kudoz", url: "http://getkudoz.com", tagline: "Tinder for job search")
+Product.create!(name: "Constellation", url: "http://constellation.co", tagline: "Product Hunt for Politics")
+Product.create!(name: "Hubum", url: "http://hubum.co", tagline: "Product Hunt for Techno Music")
