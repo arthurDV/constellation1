@@ -2,10 +2,19 @@
   Les plus beaux produits de la plateforme
 </h1>
 
+<p>
+  <%= link_to "Revenir à l'accueil", root_path, class: "btn btn-primary" %>
+  <%= link_to "Ajouter un nouveau produit", new_product_path, class: "btn btn-success" %>
+</p>
+<% 3.times do %>
+  <p> many stuff! </p>
+<% end %>
+
 <ul>
-  <%= @products.each do |product| %>
+  <% @products.each do |product| %>
   <li>
-  <%= product.name %> (<%= product.url %>)
+  <%= link_to product.name, product_path(product) %>
+  (<%= product.url %>)
   </li>
   <%end%>
 

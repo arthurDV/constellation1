@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   resources :products
 
+
+
   # read action routes
   # get "/products" => "products#index"
   # get "/products/:id" => "products#show"
