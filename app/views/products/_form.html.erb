@@ -1,5 +1,6 @@
  <%= simple_form_for @product do |f| %>
     <%= f.input :name, placeholder: "Kudoz", label: "Which product? "%>
     <%= f.input :url, placeholder: "http://ku.doz", label: "which url?" %>
+    <%= f.input :tagline, placeholder: "Tinder for job search", label: "which tagline?" %>
     <%= f.button :submit, "Ajouter", class: "btn btn-primary" %>
     <%end%>
