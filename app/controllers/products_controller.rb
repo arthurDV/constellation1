@@ -1,4 +1,4 @@
-class ProductsController < ApplicationController
+  class ProductsController < ApplicationController
 
   before_action :find_product, only: [:show, :edit, :update, :destroy]
 
@@ -43,7 +43,7 @@ class ProductsController < ApplicationController
   private
 
   def product_params
-    params.required(:product).permit(:name, :url, :tagline)
+    params.required(:product).permit(:name, :url, :tagline, :category)
   end
 
   def find_product
