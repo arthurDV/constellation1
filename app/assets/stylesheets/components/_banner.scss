@@ -1,21 +1,21 @@
 .banner {
-  font-family: Ubuntu;
+  font-family: Ubuntu-Light;
   color: black;
   text-align: center;
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
   display: flex;
-  background: -webkit-gradient(linear, left top, left bottom, from(#30CACE), to(#330F6B));
+  background: #2B2C3E;
   justify-content: center;
 
 }
 
 .banner h1 {
-  font-family: Ubuntu;
+  font-family: Ubuntu-Light;
   color: white;
   font-size: 40px;
-  font-weight: 400;
+  font-weight: lighter;
   text-shadow: 0px 0,5px rgba(0, 0, 0, 0.2);
   padding: 25px;
   margin-top: 70px;
@@ -24,10 +24,10 @@
 
 }
 .banner p {
-  font-family: Ubuntu;
+  font-family: Ubuntu-Light;
   color: white;
   font-size: 25px;
-  font-weight: 200;
+  font-weight: lighter;
   text-align: center;
   padding-bottom: 30px;
 
@@ -172,7 +172,7 @@ clear :left;
   #mailchimp input {
      border: medium none;
     color: gray;
-    font-family: Ubuntu;
+    font-family: Ubuntu-Light;
     font-size: 20px;
     font-weight: lighter;
     margin-bottom: 8px;
@@ -200,7 +200,7 @@ clear :left;
     }
       #mailchimp input[type="submit"]:hover {
       color: white;
-      border-color: #3180A7;
+      border-color: #9BD6DF;
       }
 
 
